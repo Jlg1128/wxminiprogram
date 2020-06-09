@@ -1,0 +1,6 @@
+<view class="flex1" style="border-color:#0094ff">
+<view class="logo1"><image src="../../icons/BILIBILIlogo1.png" style="width:70rpx;height:30rpx"></image></view>
+<view class="logo3"><image src="../../icons/search.png" style="width:30rpx;height:30rpx"></image></view>
+<view class="logo2"><image src="../../icons/CN_bilibili" style="width:40rpx;height:30rpx"></image></view>
+<view class="logo4">下载app</view>
+</view>

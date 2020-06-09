@@ -1,0 +1,20 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/detail/detail",
+    "pages/detail1/detail1",
+    "pages/detail2/detail2",
+    "pages/detail3/detail3",
+    "pages/comment/comment"
+    
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#ffffff",
+    "navigationBarTitleText": "bilibili",
+    "navigationBarTextStyle": "black"
+  },
+
+  "style": "v2",
+  "sitemapLocation": "sitemap.json"
+}

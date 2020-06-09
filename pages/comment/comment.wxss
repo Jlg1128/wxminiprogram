@@ -1,0 +1,22 @@
+
+.comment_info{
+  display: flex;
+  justify-content: space-between;
+  padding: 20rpx
+}
+.comment_head{
+  width: 90rpx;
+  height: 90rpx;
+}
+.comment_username{
+color: blueviolet;
+font-size: 35rpx;
+margin-bottom: 20rpx;
+}
+.comment_textstyle{
+color: #666;
+font-size: 32rpx;
+}
+.comment_wrap{
+  padding: 15rpx;
+}

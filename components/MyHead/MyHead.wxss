@@ -1,0 +1,38 @@
+
+.flex1{
+  display: flex;
+  justify-content: center;
+  border-color: black;
+}
+.logo1{
+  display: flex;
+  align-items: center;
+padding: 10rpx;
+  flex: 6;
+}
+.logo2{
+  display: flex;
+  align-content: center;
+  flex:1;
+  padding: 10px;
+  align-items: center;
+}
+.logo3{
+  display:flex;
+  align-content: center;
+  flex:1;
+  padding: 10px;
+  margin-top: 5px;
+}
+.logo4{
+  display:flex;
+  align-content: center;
+  justify-content: center;
+  flex:3;
+  background-color: pink;
+  color: white;
+  font-size: 20rpx; 
+  padding: 30rpx;
+  border-color: black;
+  border-radius:5px;
+}

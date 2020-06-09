@@ -1,0 +1,71 @@
+page{
+  color: #666;
+  font-size: 25rpx
+}
+image{
+  border-radius: 25rpx
+}
+.index_1{
+  color: black;
+  size: 30px;
+  background-color: white;
+ text-align: center;
+}
+.nav{
+white-space: nowrap;
+padding: 15rpx 0
+}
+.nav_item{
+  padding: 20rpx;
+  display: inline-block;
+  font-size:40rpx;
+  color: #666
+}
+.nav_item.active{
+  border-bottom: 1px solid pink;
+  background-color: lightgray;
+  border-radius: 1px 
+}
+.swiperchange{
+padding:0 10rpx;
+ height: 150px;
+}
+.img_1{
+  width: 100%;
+}
+.video_wrap{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 5rpx;
+}
+.nav_style{
+
+  width: 46%;
+  margin-bottom: 20rpx;
+  
+}
+.img_style2{
+  width: 375rpx;
+  height: 270rpx;
+}
+.logo2{
+  width: 25rpx;
+  height: 25rpx;
+}
+.text_wrap{
+  position: absolute;
+  bottom:5rpx;
+  left:5rpx
+}
+.text_style1{
+  color: white
+}
+.img_wrap{
+  position: relative
+}
+.text_style2{
+  white-space: normal;
+  overflow: hidden;
+  
+}

@@ -1,0 +1,21 @@
+<!-- 评论模块 -->
+<view class="comment_wrap">
+  <!-- 评论标题 -->
+  <view class="comment_style">评论()</view>
+  <!-- 评论详情模块 -->
+  <view class="comment_info">
+     <!-- 头像 -->
+     <view class="head_wrap">
+     <image class="comment_head" src="../../images/avatar/1.png"></image>
+     </view>
+  
+     <!-- 具体内容模块 -->
+     <view class="info">
+        <!-- 用户姓名 -->
+       <view class="comment_username">洛水三千</view>
+       <!-- 评论内容 -->
+      <text class="comment_textstyle" decode="true">&nbsp;&nbsp;&nbsp;&nbsp;这真的搞笑哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈</text>
+      
+     </view> 
+  </view>
+</view>

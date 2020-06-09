@@ -1,0 +1,57 @@
+<MyHead></MyHead>
+<!-- 页面容器 -->
+<view class="info_style">
+  <!-- 视频 -->
+  <video class="video_style" src="https://upos-sz-mirrorhw.bilivideo.com/upgcxcode/02/70/160347002/160347002-1-16.mp4?e=ig8euxZM2rNcNbdlhoNvNC8BqJIzNbfq9rVEuxTEnE8L5F6VnEsSTx0vkX8fqJeYTj_lta53NCM=&uipk=5&nbs=1&deadline=1583640251&gen=playurl&os=hwbv&oi=1987995514&trid=dba3cf8b861b4aacaaecaff85a936e09h&platform=html5&upsig=a16553715fb8a09721b7d760f45a6818&uparams=e,uipk,nbs,deadline,gen,os,oi,trid,platform&mid=0"></video>
+  <!-- 视频下方文本 -->
+  <text class="text_style3" decode="true"> &nbsp;&nbsp;&nbsp;超级劲爆！这真的是太好笑啦哈哈哈哈哈！！！{{id}}</text>
+  <!-- 播放量容器 -->
+    <view class="text_style4">
+       <!-- 播放人名 -->
+       <text class="text_name">杭州吴彦祖</text>
+       <!-- 播放量 -->
+      <text class="text_times">播放量：123万次</text>
+    </view>
+</view>
+<!-- 推荐视频模块 -->
+<view class="video_wrap">
+<navigator url="../comment/comment" class="video_nav">
+  <!-- 图片 -->
+  <image class="img_2" src="../../icons/star1.jpg"></image>
+  <!-- 文本模块 -->
+  <view class="text_wrap">
+    <!-- 视频详情 -->
+    <text class="tex1">这张图片是关于星空的最美的诠释</text>
+    <!-- 观看次数 -->
+    <view class="tex2">观看1513次</view>
+    
+  </view>
+</navigator>
+</view>
+<!-- 推荐视频模块 -->
+<view class="video_wrap">
+<navigator url="../comment/comment">
+  <!-- 图片 -->
+  <image class="img_2" src="../../icons/star3.jpg"></image>
+  <!-- 文本模块 -->
+  <view class="text_wrap">
+    <!-- 视频详情 -->
+    <text class="tex1">这张图片是关于星空的最美的诠释</text>
+    <!-- 观看次数 -->
+    <text class="tex2">观看1513次</text>
+  </view>
+</navigator>
+</view>
+<!-- 推荐视频模块 -->
+<view class="video_wrap">
+  <!-- 图片 -->
+  <image class="img_2" src="../../icons/star2.jpg"></image>
+  <!-- 文本模块 -->
+  <view class="text_wrap">
+    <!-- 视频详情 -->
+    <text class="tex1">这张图片是关于星空的最美的诠释</text>
+    <!-- 观看次数 -->
+    <text class="tex2"></text>
+  </view>
+
+</view>

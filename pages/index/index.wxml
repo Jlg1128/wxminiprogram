@@ -1,0 +1,27 @@
+<view><MyHead></MyHead>
+<scroll-view class="nav" scroll-x><view bindtap="clchange" data-index="{{index}}" class="nav_item {{currentindex==index?'active':''}}" wx:for="{{array}}"    wx:key="index">{{item}}</view></scroll-view></view>
+<swiper class="swiperchange" autoplay="true" indicator-dots="true" indicator-color="#ffffff" indicator-active-color="#000000" interval="3000">
+<swiper-item class="img_1"><image src="/images/post/cat.png" class="img_1" mode="widthFix"></image></swiper-item>
+<swiper-item class="img_1"><image src="/images/post/crab.png" class="img_1" mode="widthFix"></image></swiper-item>
+<swiper-item class="img_1"><image src="/images/post/bl.png" class="img_1" mode="widthFix"></image></swiper-item>
+<swiper-item class="img_1"><image src="/images/post/vr.png" class="img_1" mode="widthFix"></image></swiper-item>
+</swiper>
+<!-- 视频容器 -->
+<view class="video_wrap">
+  <navigator url="../detail/detail?id={{item.id}}" class="nav_style" wx:for="{{VideosList}}" wx:key="index">
+    <!-- 图片容器 -->
+       <view class="img_wrap">
+          <!-- 图片 -->
+             <image src="{{item.Imgsrc}}" class="img_style2" ></image>
+          <!-- 文本 -->
+              <view class="text_wrap">
+              <!-- 图标 -->
+             <image src="{{item.Iconssrc}}" class="logo2" mode="widthFix"></image>
+              <!-- 播放量 -->
+              <text class="text_style1">播放{{item.times}}万次</text></view>
+              
+       </view>
+       <!-- 图片说明 -->
+    <text class="text_style2">{{item.Text}}</text>
+  </navigator>
+</view>

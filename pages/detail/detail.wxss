@@ -1,0 +1,61 @@
+page{
+  color: #666;
+  padding:10rpx;
+
+}
+.info_style{
+   width: 100%;
+   margin-top: 12rpx;
+}
+.video_style{
+  width: 100%;
+
+  justify-content: space-around
+
+}
+.text_times{
+position: absolute;
+bottom:0rpx;
+left: 250rpx;
+font-size: 28rpx;
+}
+.text_style4{
+position: relative;
+margin-top: 10rpx;
+}
+.text_name{
+  color: #000;
+  font-size: 28rpx;
+
+}
+.text_style3{
+  display: flex;
+  justify-content: space-between;
+  font-size: 60rpx;
+}
+.img_2{
+  width: 30%;
+  height: 200rpx;
+  border-radius: 15rpx;
+}
+.video_wrap{
+  display: flex;
+  justify-content: space-between;
+  padding: 8rpx;
+  align-items: center
+}
+.text_wrap{
+    width: 60%;
+    font-size: 25rpx
+}
+.tex2{
+  margin-top: 25rpx;
+  text-align: right;
+  color: #000
+}
+.video_nav{
+  width: 90%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center
+}
